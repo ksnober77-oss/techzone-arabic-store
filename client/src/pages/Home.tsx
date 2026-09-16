@@ -57,7 +57,7 @@ const products: Product[] = [
     rating: 4.9,
     reviews: 126,
     badge: "الأكثر مبيعاً",
-    image: "/manus-storage/techzone-build_4951897d.png",
+    image: "/assets/techzone-build.jpg",
     color: "cyan",
     specs: "Ryzen 9 · RTX 4080 · 32GB RAM",
   },
@@ -327,7 +327,7 @@ export default function Home() {
             <div className="featured-panel">
               <div className="featured-glow" />
               <div className="featured-copy"><span className="section-kicker">صُمم للأداء</span><h2>إعدادك القادم<br /><span>يبدأ من هنا.</span></h2><p>لا نبيع مجرد قطع. نحن نساعدك على بناء تجربة كاملة تشبهك — من أول تشغيل إلى آخر انتصار.</p><div className="feature-list"><span><Check size={15} /> مكونات أصلية 100%</span><span><Check size={15} /> تجميع احترافي مجاني</span><span><Check size={15} /> دعم بعد البيع</span></div><button className="primary-button" onClick={() => setQuickProduct(products[0])}>صمّم جهازك <ArrowLeft size={17} /></button></div>
-              <div className="featured-product"><span className="orbit orbit-one" /><span className="orbit orbit-two" /><img src="/manus-storage/techzone-build_4951897d.png" alt="جهاز ألعاب Nebula X9 Pro" /><div className="featured-tag"><span>NEBULA X9 PRO</span><strong>قوة. بلا تنازل.</strong></div></div>
+              <div className="featured-product"><span className="orbit orbit-one" /><span className="orbit orbit-two" /><img src="/assets/techzone-build.jpg" alt="جهاز ألعاب Nebula X9 Pro" /><div className="featured-tag"><span>NEBULA X9 PRO</span><strong>قوة. بلا تنازل.</strong></div></div>
             </div>
           </div>
         </section>
